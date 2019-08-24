@@ -2,6 +2,11 @@ const React =require("react")
 const connect = require("react-redux")
 
 class Movies extends React.Component{
+    componentWillMount(){
+        this.props.dispatch(
+            
+        )
+    }
     render(){
         const {movies =[]}=this.props
         return(
