@@ -1,1 +1,0 @@
-ReactDOM.render(React.createElement("h1", null, "Hidodo"), document.getElementById("content"));
